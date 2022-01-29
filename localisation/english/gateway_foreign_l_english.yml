@@ -1,0 +1,6 @@
+﻿l_english:
+
+gateway_foreign:0 "Foreign Gateway"
+gateway_foreign_DESC:0 "This gateway was built by a friendly neighbour."
+gateway_foreign_MEGASTRUCTURE_DETAILS:0 "A gateway that can only be constructed in friendly foreign territory."
+gateway_foreign_requires_foreign_border:0 "$TRIGGER_FAIL$We can only built this type of gateway within the borders of friendly foreign nations."
