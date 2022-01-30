@@ -55,7 +55,7 @@ mega_art_installation_0 = {
 			}
 			custom_tooltip = {
 				fail_text = "requires_no_anomaly"
-				NOT = { has_anomaly = yes }
+				has_anomaly = no
 			}
 			custom_tooltip = {
 				fail_text = "requires_not_minor_planetary_body"
@@ -90,7 +90,7 @@ mega_art_installation_0 = {
 			any_neighbor_system = {
 				exists = owner
 				NOT = {
-					owner = { is_same_value = from }
+					is_owned_by = from
 				}
 			}
 		}

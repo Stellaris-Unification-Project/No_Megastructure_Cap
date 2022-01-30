@@ -78,7 +78,7 @@ mega_shipyard_0 = {
 			}
 			custom_tooltip = {
 				fail_text = "requires_no_anomaly"
-				NOT = { has_anomaly = yes }
+				has_anomaly = no
 			}
 		}
 	}
@@ -98,7 +98,7 @@ mega_shipyard_0 = {
 			any_neighbor_system = {
 				exists = owner
 				NOT = {
-					owner = { is_same_value = from }
+					is_owned_by = from
 				}
 			}
 		}
